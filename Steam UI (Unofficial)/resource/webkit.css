@@ -967,3 +967,16 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
 	z-index: 0;
 	background-image:  !important	;
 }
+
+
+
+
+
+.profile_content.has_profile_background
+{
+	background: none;
+	margin-top: -14px;
+	overflow: hidden;
+	padding-top: 14px;
+	margin-top: -1px !important;
+}
