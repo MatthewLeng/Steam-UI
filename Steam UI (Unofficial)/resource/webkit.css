@@ -670,7 +670,7 @@ img.badge_icon.small {
 	background: linear-gradient( to bottom, rgba(83,164,196,1) 5%, rgba(69,128,151,1) 95%);
 	/* IE <= 9 doesn't support rounded corners and gradient.  The gradient isn't too noticable so just disable the filter in IE9 */
 	filter: none;
-	border-radius: 150px;
+	border-radius: 100px !important;
 }
 .playerAvatar.online img,
 .friend_status_online .friend_block_avatar img,
@@ -1429,7 +1429,7 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
 	width: 100%;
 	height: 1px;
 	border-top: 1px solid #252525;
-	/* background: rgba(0,0,0,0) ; !important; */
+	background: rgba(0,0,0,0) !important;
 }
 
 
@@ -1442,4 +1442,115 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
 	background: rgba(33,101,138,1);
 	background: -webkit-linear-gradient( top, rgba(33,101,138,1) 5%, rgba(23,67,92,1) 95%);
 	background: linear-gradient( to bottom, rgba(33,101,138,1) 5%, rgba(23,67,92,1) 95%);
+}
+
+
+
+
+
+
+/* Store */
+
+
+.game_area_purchase_game p.package_contents,
+.game_area_offsite_purchase p.package_contents{
+	margin-left: 50px !important;
+	color: #8f98a0;
+}
+
+
+
+.btnv6_green_white_innerfade {
+	border-radius: 2px;
+	border: none;
+	padding: 1px;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none !important;
+	color: #D2E885 !important;
+	background: rgba(121,153,5,1);
+	/* background: -webkit-linear-gradient( top, rgba(121,153,5,1) 5%, rgba(83,105,4,1) 95%); */
+	/* background: linear-gradient( to bottom, rgba(121,153,5,1) 5%, rgba(83,105,4,1) 95%); */
+}
+
+
+.game_page_background.game {
+	background-position: center top;
+	background-repeat: no-repeat;
+	min-width: 1050px;
+	background-size: 1920px;
+}
+
+
+
+#game_highlights {
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0) 50%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 50%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(0,0,0,0) 50%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(0,0,0,0) 50%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(0,0,0,0) 50%,rgba(0,0,0,0.4) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#66000000',GradientType=1 ); /* IE6-9 */
+    padding-bottom: 250px;
+    background: none !important;
+}
+
+
+
+#game_highlights .rightcol {
+    width: 324px !important;
+    margin-right: 1050px !important;
+}
+
+
+.highlight_overflow {
+	overflow: hidden !important;
+	margin-right: 16px !important;
+	position: relative !important;
+	width: 1000px !important;
+	margin-top: -400px !important;
+}
+
+
+
+.game_background_glow {
+	background: rgba(0,0,0,0) !important;
+	background-position: bottom !important;
+	padding-bottom: 280px !important;
+	background-repeat: no-repeat !important;
+	margin: 0px auto !important;
+	margin-bottom: 150px !important;
+}
+
+
+
+.apphub_HomeHeaderContent .apphub_AppName {
+	font-family: "Motiva Sans", Sans-serif !important;
+	font-weight: normal !important; /* normal */
+	padding-left: 0px !important;
+	margin-left: -430px !important;
+}
+
+
+
+.review_ctn {
+	border-top: none !important;
+}
+
+
+.highlight_overflow {
+	overflow: hidden;
+	margin-right: 16px;
+	position: relative;
+	margin-top: -375px !important;
+}
+
+
+
+.apphub_OtherSiteInfo
+{
+	position: relative;
+	margin-top: -15px;
+	margin-right: -25px;
+	float: right;
 }
