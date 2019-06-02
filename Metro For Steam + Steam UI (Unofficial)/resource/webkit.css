@@ -315,7 +315,7 @@ body.v6.app {
 	float: left;
 	padding-bottom: 7px;
 	padding-top: 30px;
-	background: rgba(0,0,0, .5) !important;
+	background: rgba(0,0,0, .2) !important;
 	border-radius: 20px;
 }
 
@@ -414,10 +414,14 @@ body.v6.app {
 
 .fileRating
 {
-	margin-top: -44px  !important;
+
 	margin-left: 50px !important;
-	background: rgba(0,0,0, .5) !important;
+	background: rgba(0, 0, 0, 1) !important;
 	border-radius: 10px !important;
+
+	margin-top: -70px !important;
+	margin-right: 59px !important;
+	border: 3px solid black !important;
 
 	margin-bottom: 54px !important;
 }
@@ -503,7 +507,7 @@ body.v6.app {
 	display: block;
 	background-image: linear-gradient(to right, rgba(43, 116, 255, 1), rgba(6, 191, 255, 1)) !important;
 	/* border-radius: 50px; */
-
+	color: #b3e6ff !important;
 	/* border-radius: 2px; */
 	/* background: #799905; */
 	/* background: -webkit-linear-gradient( top, #799905 5%, #536904 95%); */
@@ -517,7 +521,7 @@ body.v6.app {
 	display: inline-block;
 	cursor: pointer;
 	text-decoration: none !important;
-	color: #D2E885 !important;
+	color: #b3e6ff !important;
 	background: none !important
 
 }
@@ -979,4 +983,463 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
 	overflow: hidden;
 	padding-top: 14px;
 	margin-top: -1px !important;
+}
+
+
+
+
+/* Market */
+
+
+.market_listing_largeimage {
+	background: #071215;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	width: 360px;
+	height: 360px;
+	padding: 0 40px;
+	margin-right: 15px;
+	float: left;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.item_market_action_button_green > span {
+	background: linear-gradient(to right, rgb(35, 88, 191, 1), rgb(1, 122, 165, 1)) !important;
+}
+
+.item_market_action_button_green:hover > span, .item_market_action_button_green .item_market_action_button_preload {
+	background: linear-gradient(to right, rgb(35, 88, 191, .5), rgb(1, 122, 165, .5)) !important;
+}
+
+.market_header_bg {
+	background: linear-gradient(to right, rgb(35, 88, 191, .7), rgb(1, 122, 165, .6)) !important;
+	width: 100%;
+}
+
+.market_header_logo
+{
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	background-image: none !important;
+	background-repeat: no-repeat;
+	height: 121px;
+	width: 949px;
+}
+
+
+.market_subtitle_text
+{
+	font-size: 14px;
+	color: #b3e6ff !important;
+}
+
+
+.market_tab_well_tab_active > span {
+	background: linear-gradient(to right, rgb(35, 88, 191, 1), rgb(1, 122, 165, 1)) !important;
+	color: #ffffff;
+}
+
+
+.market_tab_well_tab_inactive:hover > span {
+	background: linear-gradient(to right, rgb(35, 88, 191, .5), rgb(1, 122, 165, .5)) !important;
+	color: #ffffff;
+}
+
+
+
+#BG_top {
+	position:relative;
+	width: 949px;/*100%;*/
+	height: 121px;
+	background-color: rgba(0,0,0, .2) !important;
+	text-align: left;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+#BG_top > .user_info {
+	position: absolute;
+	margin-left: 15px;
+	height: 51px;
+	padding: 13px 13px 0 13px;
+	background-color: rgba(0,0,0, .5) !important;
+	border-radius: 100px !important;
+	border: none !important;
+	/* border: 1px solid #39393A; */
+	/* border-right: 1px solid #0F0F0F; */
+	/* border-top-left-radius: 3px; */
+	-moz-border-radius-topleft: 3px;
+	/* border-bottom-left-radius: 3px; */
+	-moz-border-radius-bottomleft: 3px;
+	min-width: 290px;
+	max-width: 400px;
+	right: 25px !important;
+	top: 29px;
+}
+
+
+
+
+.market_listing_largeimage {
+	background: none !important; 
+	-webkit-box-shadow: none inset !important;
+	-moz-box-shadow: none inset !important;
+	box-shadow: none inset !important; 
+	border-radius: 3px; 
+	-moz-border-radius: 3px;
+	width: 360px;
+	height: 360px;
+	padding: 0 40px;
+	margin-right: 15px;
+	float: left;
+	text-align: center;
+}
+
+
+
+
+
+.market_searchedForTerm
+{
+	display: inline-block;
+	min-height: 28px;
+	line-height: 28px;
+	padding: 2px 5px;
+	background-color: #4f7dff !important;
+	border: 2px solid #2f6093 !important;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	color: #edf2f9;
+	font-size: 14px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+.market_searchedForTerm:hover
+{
+	background-color: #3b5cb9 !important;
+	border: 2px solid #204463 !important;
+}
+
+
+
+
+.market_search_advanced_button {
+	background: linear-gradient(to left, rgb(35, 88, 191, .6), rgb(1, 122, 165, 1)) !important;
+	border: 1px solid transparent !important;
+	border-image: linear-gradient(to bottom, #3a4043 0%, #25282d 100%) !important;
+	border-image-slice: 1 !important;
+	padding: 2px 4px 2px !important;
+	font-family: "Motiva Sans", Sans-serif !important;
+	font-weight: 300 !important; /* light */
+	font-size: 12px !important;
+	color: #fff !important;
+	line-height: 24px !important;
+	cursor: pointer !important;
+}
+
+
+
+.market_search_advanced_button:hover {
+	background: linear-gradient(to left, rgba(27, 64, 136, 0.6), rgb(0, 79, 107)) !important;
+}
+
+
+
+.game_button > span {
+	border: 1px solid transparent !important;
+	background: none !important;
+	background-color: #2077c19e !important;
+	border-image: linear-gradient(to bottom, #3a4043 0%, #25282d 100%) !important;
+	border-image-slice: 1 !important;
+	padding: 2px !important;
+}
+
+
+.game_button:hover > span, .game_button .game_button_preload {
+	background: #2077c154 !important;
+}
+
+
+
+#findItemsSearchBox {
+	width: 253px !important;
+	height: 20px !important;
+	border-radius: 0px !important;
+	color: #fff !important;
+			font-family: "Motiva Sans", Sans-serif !important;
+		font-weight: 300 !important; /* light */
+
+			padding: 2px 0 2px 4px !important;
+	background: linear-gradient(to right, rgb(35, 88, 191, .1), rgb(1, 122, 165, .1)) !important;
+	border-width: 1px !important;
+	border-style: solid !important;
+	border-color: #182636 #45566A #45566A #182636 !important;
+}
+
+
+
+
+
+
+
+
+
+.market_searchedForTerm
+{
+	display: inline-block !important;
+	min-height: 28px !important;
+	line-height: 28px !important;
+	padding: 2px 5px !important;
+	background-color: #499fde !important;
+	border: 2px solid #2f7793 !important;
+	border: 2px solid #408abf !important;
+	border-radius: 2px !important;
+	color: #f7fbff !important;
+	font-size: 14px !important;
+	margin-right: 5px !important;
+	margin-bottom: 5px !important;
+}
+
+
+
+
+
+
+.market_searchedForTerm:hover
+{
+	background-color: #3e9dc34d !important;
+	border: 2px solid #3e9dc326 !important;
+}
+
+
+
+
+/* Inventory */
+
+
+#tabcontent_inventory {
+	border: 1px solid #303030 !important;
+	background: linear-gradient(to top, rgb(35, 88, 191, .6), rgb(1, 122, 165,.3)) !important;
+	border-radius: 50px;
+	margin-top: 50px;
+}
+
+
+
+.games_list_tab, a.games_list_tab {
+	display: block !important;
+	float: left !important;
+	color: #ffffff !important;
+	background: linear-gradient(to right, rgb(35, 88, 191, .9), rgb(1, 122, 165, .9)) !important;
+	line-height: 54px !important;
+	padding: 0px 12px !important;
+	/* outline: none !important; */
+	border-radius: 50px !important;
+	font-size: 11px !important;
+	/* border-top: 1px solid #565656 !important; */
+	width: 205px !important;
+	margin-top: 20px !important;
+}	
+
+
+
+.games_list_tabs {
+	border: 0 !important; 
+	border-bottom-color: 0 !important; 
+	border-top-left-radius: 0px !important; 
+	border-top-right-radius: 0px !important; 
+	-moz-border-radius-topleft: 0px !important;
+	-moz-border-radius-topright: 0px !important;
+	background: rgba(0,0,0,0) !important;
+	padding-top: 1px !important;
+}
+
+
+
+
+.games_list_tab_separator {
+	display: block !important;
+	float: left !important;
+	width: 2px !important;
+	height: 54px !important;
+	background-image: none  !important;
+	background-repeat:no-repeat !important;
+}
+
+
+.games_list_tab_row_separator {
+	clear: left !important;
+	float: left !important;
+	width: 100% !important;
+	height: 1px !important;
+	border-top: none  !important;
+	background-color: none  !important;
+}
+
+
+.games_list_tab.first_tab, a.games_list_tab.first_tab {
+	border-top-left-radius: none !important;
+	-moz-border-radius-topleft: none !important;
+}
+
+.games_list_tab.fourth_tab, a.games_list_tab.fourth_tab {
+	border-top-right-radius: none !important;
+	-moz-border-radius-topright: none !important;
+}
+
+
+.games_list_tab.active {
+	background-color: #ffffff !important;
+	border-top: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+
+
+
+
+
+
+
+.profile_small_header_texture {
+	background-image: none !important;
+	max-width: 978px;
+	height: 102px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+
+.profile_small_header_bg {
+	background-image: none !important;
+	max-width: 1010px;
+	height: 215px;
+	margin: 0 auto -98px auto;
+	background-position: center;
+}
+
+
+
+
+
+
+
+.view_inventory_page {
+	position: relative;
+	background: rgba(0,0,0, .2) !important;
+	padding: 11px;
+	width: 880px;
+	margin-left: 6px;
+	border-radius: 50px;
+}
+
+
+
+
+.trade_item_box {
+	background-color: rgba(0,0,0, .5) !important;
+	/* border: 1px solid #2c2c2d; */
+	border-radius: 20px;
+	padding: 6px 0 0 6px;
+}
+
+
+
+.view_inventory_page .item {
+	cursor: pointer;
+	position: relative;
+	border-radius: 50px;
+}
+
+
+
+.itemHolder {
+	position: relative;
+	width: 98px;
+	height: 98px;
+	background-color: #333333 !important;
+	border-radius: 50px;
+	background-image: none !important;
+	background-repeat: no-repeat;
+	background-position: center top;
+	float: left;
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+
+
+
+.inventory_iteminfo .item_desc_content {
+	padding: 238px 11px 11px 11px;
+	background: rgba(0,0,0, .2) !important;
+	border-radius: 50px;
+
+	
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+
+
+.item_market_actions {
+	background: rgba(0,0,0, .5) !important;
+	border-radius: 50px;
+	border-top-left-radius: 20px !important;
+	border-top-right-radius: 20px !important;
+}
+
+
+
+#iteminfo0, #iteminfo1 {
+	width: 346px;
+	top: 0px;
+	left: 0px;
+	border-radius: 50px;
+}
+
+
+
+
+.games_list_tab_row_separator {
+	clear: left;
+	float: left;
+	width: 100%;
+	height: 1px;
+	border-top: 1px solid #252525;
+	/* background: rgba(0,0,0,0) ; !important; */
+}
+
+
+
+
+.btn_darkblue_white_innerfade > span {
+	border-radius: 2px;
+	display: block;
+	background: linear-gradient(to left, rgb(35, 88, 191, 1), rgb(1, 122, 165, 1)) !important;
+	background: rgba(33,101,138,1);
+	background: -webkit-linear-gradient( top, rgba(33,101,138,1) 5%, rgba(23,67,92,1) 95%);
+	background: linear-gradient( to bottom, rgba(33,101,138,1) 5%, rgba(23,67,92,1) 95%);
 }
