@@ -109,6 +109,15 @@ background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALAgMA
 }
 
 
+body {
+	background:  #1b2838;
+	text-align: left;
+	color: #8F98A0;
+	background: linear-gradient(to left, rgba(43, 116, 255, .4), rgba(6, 191, 255, 0.3)) !important;
+	font-size: 14px;
+	margin:0;
+	padding:0;
+}
 
 body.headerOverride.chromeless {
     /* background: #1b2838; */
@@ -126,7 +135,11 @@ body.headerOverride.chromeless {
 
 
 
-
+#leftContents {
+	width: 550px !important;
+	margin-bottom: 15px !important;
+	margin-left: 45px !important;
+}
 
 
 
@@ -326,6 +339,7 @@ body.v6.app {
 	font-size: 12px !important;
 	color: #8F98A0 !important;
 	text-align: center  !important;
+	margin-left: -25px !important;
 }
 
 
@@ -336,7 +350,7 @@ body.v6.app {
 	color:#ffffff !important;
 	font-size:30px !important;
 	word-wrap:break-word !important;
-	margin-top: 2px !important;
+
 	text-align: center !important;
 	font-family: "Motiva Sans Light", Arial, Helvetica, sans-serif !important;
 }
@@ -347,8 +361,9 @@ body.v6.app {
 	font-size:14px !important;
 	font-weight: normal !important;
 	width: 200px  !important;
-	margin-left: -5px  !important;
-	margin-top: -15px  !important;
+	margin-top: -50px !important;
+	margin-left: -10px !important;
+
 }
 
 
@@ -380,6 +395,8 @@ body.v6.app {
 	margin-bottom: 0px !important;
 	border-radius: 100px  !important;
 	margin-left: 12px  !important;
+
+	margin-top: -50px !important;
 }
 
 
@@ -401,6 +418,19 @@ body.v6.app {
 	margin-left: 50px !important;
 	background: rgba(0,0,0, .5) !important;
 	border-radius: 10px !important;
+
+	margin-bottom: 54px !important;
+}
+
+
+
+.workshopItemApp {
+
+	text-align: center !important;
+
+	font-size: 12px;
+	margin-right: -5px !important;
+
 }
 
 
@@ -411,6 +441,19 @@ body.v6.app {
 
 
 
+
+/*
+
+	#profileBlock.clearfix {
+		width: 765px;
+		margin:0;
+		padding: 35px;
+		padding-right: 0px;
+		float: left;
+		margin-top: -610px;
+	}
+
+*/
 
 
 
@@ -508,6 +551,205 @@ body.v6.app {
 
 
 /* Profile */
+
+
+
+
+
+.playerAvatar.profile_header_size {
+	position: relative;
+	width: 166px;
+	height: 166px;
+	border-radius: 150px;
+}
+
+
+
+.playerAvatar.profile_header_size .playerAvatarAutoSizeInner img {
+
+	/* override the gradient behind the image (it won't show anyway) */
+
+	background: none;
+
+	filter: none;
+
+		/* fix space appearing beneath image */
+
+	display: block;
+
+	padding: 0;
+
+	width: 100%;
+
+	height: 100%;
+
+	border-radius: 100px;
+}
+
+
+
+
+
+
+
+.playerAvatar img,
+.friend_block_holder .friend_block_avatar img,
+.friend_activity .friend_block_avatar img {
+	width: 32px;
+	height: 32px;
+	padding: 1px;
+	border-radius: 150px;
+	border: none;
+}
+
+
+
+
+.friendBlock .playerAvatar {
+	float:left;
+	margin-right: 7px;
+	border-radius: 150px !important;
+}
+
+
+
+img.badge_icon.small {
+	width: 54px;
+	height: 54px;
+	border-radius: 90px;
+}
+
+
+
+
+
+
+/* Offline State */
+.playerAvatar.offline,
+.friend_block_holder.friend_status_offline .friend_block_avatar,
+.friend_activity.friend_status_offline .friend_block_avatar,
+.appHubIconHolder.offline,
+.avatar_block_status_offline,
+.appHubIconHolder.ignored {
+
+	background: -webkit-linear-gradient( top, rgba(106,106,106,1) 5%, rgba(85,85,85,1) 95%);
+	background: linear-gradient( to bottom, rgba(106,106,106,1) 5%, rgba(85,85,85,1) 95%);
+	/* IE <= 9 doesn't support rounded corners and gradient.  The gradient isn't too noticable so just disable the filter in IE9 */
+	filter: none;
+	border-radius: 150px;
+}
+
+
+
+.playerAvatar.offline img,
+.friend_status_offline .friend_block_avatar img,
+.appHubIconHolder.offline img,
+.avatar_block_status_offline img {
+	background: -webkit-linear-gradient( top, #515151 5%, #474747 95%);
+	background: linear-gradient( to bottom, #515151 5%, #474747 95%);
+	border-radius: 150px;
+
+}
+
+
+
+
+
+/* Online State */
+.playerAvatar.online,
+.friend_block_holder.friend_status_online .friend_block_avatar,
+.friend_activity.friend_status_online .friend_block_avatar,
+.appHubIconHolder.online,
+.avatar_block_status_online {
+	background-color: #57cbde;
+	background: -webkit-linear-gradient( top, rgba(83,164,196,1) 5%, rgba(69,128,151,1) 95%);
+	background: linear-gradient( to bottom, rgba(83,164,196,1) 5%, rgba(69,128,151,1) 95%);
+	/* IE <= 9 doesn't support rounded corners and gradient.  The gradient isn't too noticable so just disable the filter in IE9 */
+	filter: none;
+	border-radius: 150px;
+}
+.playerAvatar.online img,
+.friend_status_online .friend_block_avatar img,
+.appHubIconHolder.online img,
+.avatar_block_status_online img {
+	background: -webkit-linear-gradient( top, #41778f 5%, #3d697b 95%);
+	background: linear-gradient( to bottom, #41778f 5%, #3d697b 95%);
+	border-radius: 150px;
+}
+
+/* In-Game State */
+.playerAvatar.in-game,
+.friend_block_holder.friend_status_in-game .friend_block_avatar,
+.friend_activity.friend_status_in-game .friend_block_avatar,
+.appHubIconHolder.in-game,
+.avatar_block_status_in-game {
+	background-color: #90ba3c;
+	border-radius: 150px;
+	background: -webkit-linear-gradient( top, rgba(143,185,59,1) 5%, rgba(110,140,49,1) 95%);
+	background: linear-gradient( to bottom, rgba(143,185,59,1) 5%, rgba(110,140,49,1) 95%);
+	/* IE <= 9 doesn't support rounded corners and gradient.  The gradient isn't too noticable so just disable the filter in IE9 */
+	filter: none;
+}
+.playerAvatar.in-game img,
+.friend_status_in-game .friend_block_avatar img,
+.appHubIconHolder.in-game img,
+.avatar_block_status_in-game img {
+	background: -webkit-linear-gradient( top, #66812e 5%, #59702b 95%);
+	background: linear-gradient( to bottom, #66812e 5%, #59702b 95%);
+	border-radius: 150px;
+}
+
+
+/* Golden State */
+.playerAvatar.golden,
+.friend_block_holder.friend_status_golden .friend_block_avatar,
+.friend_activity.friend_status_golden .friend_block_avatar,
+.appHubIconHolder.golden,
+.avatar_block_status_golden {
+	background-color: #e4ca63;
+
+	background: -webkit-linear-gradient( 305deg, #d5bf6a 10%,#ffe2a9 40%,#ba995c 52%,#ba995c 61%,#d5bf6a 85%);
+	background: linear-gradient( 145deg, #d5bf6a 10%,#ffe2a9 40%,#ba995c 52%,#ba995c 61%,#d5bf6a 85%);
+	border-radius: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 div.profile_page {
